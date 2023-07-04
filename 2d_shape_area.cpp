@@ -5,14 +5,15 @@ class Volume
     public:
       Volume()
    {
-      cout<<"\t Volume of Shape Formula's "<<endl;
+      cout<<" Volume of Shape Formula's "<<endl;
    }
 
     Volume(int l)
    {
      cout<<" Volume of Cube : "<<l*l*l<<endl;
    }
-
+    
+    
     Volume (int l,int w,int h)
    {
       cout<<" Volume of Rectangular Solid or Cuboid : "<<l*w*h<<endl;
@@ -20,7 +21,7 @@ class Volume
 
     Volume(double r)
    {
-      cout<<"Volume  of Sphere : "<<((4/3)*3.14*r*r*r)<<endl;
+      cout<<" Volume of Sphere : "<<((4/3)*3.14*r*r*r)<<endl;
    }
 
    Volume(double r,int h)
@@ -30,7 +31,7 @@ class Volume
 
    Volume(int b,double h)
    {
-     cout<<"Volume Prism : "<<(b*b)*h<<endl;
+     cout<<" Volume Prism : "<<(b*b)*h<<endl;
    }
 
    Volume(double b, double h)
